@@ -1,0 +1,79 @@
+.body1{
+    z-index: 1000;
+    margin-top: 150px;
+    margin-left: 500px;
+    margin-bottom: 60px;
+    min-height: 500px;
+    width: 450px;
+    border: 2px solid #FF6015;
+    border-radius: 20px;
+}
+.file-input{
+    color: black;
+    padding-left: 100px;
+    padding-top: 65px;
+    font-size: 15px;
+}
+.just-click{
+    padding-left: 110px;
+    padding-top: 65px;
+}
+.upper{
+    background: #D9D9D9;
+    height: 150px;
+    width: 300px;
+    clip-path: ellipse(25% 45% at 50% 50%);
+    margin-left: -150px;
+    margin-top: -90px;
+    
+}
+#abc{
+    padding: 40px;
+    /* opacity: 0; */
+}
+#selectFile{
+}
+input[type='file']{
+    width: 200px;
+    height: 50vh;
+
+
+}
+.form1{
+    margin-top: 40px;
+    /* min-height: 100px; */
+    width: 100px;
+    height: 250px;
+}
+.input-field{
+    margin: .5rem;
+    position: relative;
+    /* top: 10%; */
+    left: -70%;
+    transform: translate(40%,0);
+    outline: 0;
+    width: 300px;
+    border-width: 0 0 1px;
+    border-color: black; 
+    text-align: center;  
+
+}
+.button{
+    background-color: #FF6015;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    width: 100px !important;
+    height: 32px;
+    margin-left: 35px;
+}
+.button1{
+    /* margin-top: 20px;
+    margin-left: -15px;
+    padding-left: 100px; */
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 33%;
+
+}

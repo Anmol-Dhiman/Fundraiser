@@ -1,0 +1,95 @@
+.profile-page{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.img-section{
+    width: 35%;
+    height:80vh;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    color: black;
+    background-color: rgb(198, 198, 198);
+}
+.profile-section{
+    width: 50%;
+    padding: 1.5rem;
+}
+
+.link-icon{
+    position: relative;
+    left: 5%;
+    width: 30px;
+    height: 30px;  
+    margin:0 0.3rem ;  
+}
+.link-icon:hover{
+    cursor: pointer;
+}
+.link-icon1{
+    position: relative;
+    top: 10%;
+    left: 0%;
+    width: 20px;
+    height: 20px;  
+    margin:0 0.3rem;  
+}
+.tag-items{
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin: 1rem;
+}
+.tag-item{
+    /* padding: .15em; */
+    margin: .5rem;
+    font-size: medium;
+    color: white;
+    margin-top: 4px;
+    text-align: center;
+    background: #FF6015;
+    width: 6rem;
+    height: 30px;
+    border-radius: 25%/70%;
+}
+.milestone-cont{
+    border: 2px solid #FF6015;
+    border-radius:10%/90%;
+    height:80px;
+    
+}
+.profile-heading{
+    width: 100% ;
+    padding: 1em 0;
+    text-align: center;
+}
+.milestone-div{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+}
+b{
+    font-size: large;    
+}
+.personal-details{
+    text-align: center;
+    font-size: large;
+    padding: 1em 0;
+}
+.contact-detail{
+    font-size: large;
+    border-radius: 1px solid #FF6015;
+}
+.donate-btn{
+    width: 150px;
+    height: 2.5rem;
+    font-size: large;
+    border-radius: 20%/80%;
+}
+.donate-btn:hover{
+    cursor: pointer;
+    background-color: #d84400;
+}

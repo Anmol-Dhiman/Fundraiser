@@ -1,0 +1,65 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+button{
+    color: aliceblue;
+    background-color:#FF6015;
+    border: none;
+    /* width: 110px; */
+    height: 25px;
+    border-radius: 20%/50%;
+}
+.profile-img{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: rgb(189, 189, 189);
+}
+/* .profile-img[type='file']{
+    display: inline-block;
+    width: 100px;
+    margin-bottom:0 1em ;
+} */
+.set-profile[type='button']{
+    margin-top: 10px;
+    position: relative;
+    left: 30%;
+    width: 150px;
+    text-align: center;
+    border-radius: 20%/90%;
+    cursor:pointer;
+}
+textarea{
+    width: 350px;
+    height: 15px;
+    margin: auto;
+    border: 3px solid #FF6015;
+    border-radius: 10%/90%;
+    padding: 0.5rem ;
+}
+button[type='submit']{
+    margin: auto;
+    margin-top: 2rem;
+    width: 10rem;
+    height: 40px;
+    border-radius: 15%/50%;
+    cursor: pointer;
+}
+h5{
+    font-weight: 500;
+}
+.span-login{
+    color: #FF6015;
+    cursor: pointer;
+}
