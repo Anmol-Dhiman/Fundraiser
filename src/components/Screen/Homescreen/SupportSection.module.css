@@ -1,0 +1,27 @@
+.sup-sec{
+    background:#c4c4c4;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    /* position:relative; */
+
+}
+.sup-info{
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.sup-info-btn{
+    width: 200px;
+    height:50px;
+    position: relative;
+    top: 50%;
+    font-size: large;
+    border-radius: 20%/80%;
+    transform: translate(0,-50%);
+    cursor: pointer;
+}
+.sup-info-btn:hover{
+    background-color: #bd3c00;
+}

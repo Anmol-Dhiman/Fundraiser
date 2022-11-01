@@ -1,0 +1,73 @@
+.img{
+    width: 200px;
+    height:200px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,20%);
+}
+.login-form{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    text-align: center;
+    flex-direction:column;
+    /* margin-top: 2rem; */
+}
+input{
+    width: 350px;
+    height: 30px;
+    margin: 0.5rem;
+    padding: 0 0 0 0.6rem;
+    border:3px solid #FF6015 ;
+    border-radius: 10%/95%;
+}
+.input::placeholder{
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-size: large;
+    font-family: sans-serif;
+}
+.login-btn{
+    width: 250px;
+    height: 40px;
+    margin: auto;
+    margin-top: 3rem;
+    border: none;
+    font-size: large;
+    border-radius: 15%/90%;
+    color: white;
+    background:#FF6015;
+}
+a{
+    text-decoration: none;
+}
+.a{
+    color: black;
+    font-weight: 600;
+}
+.dont-have-acc{
+    font-weight: 400;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    }
+.a-signup{
+    color: #FF6015;
+    cursor: pointer;
+}
+input::selection{
+    border: 2px solid black;
+    background-color: #ff8e59;
+    font-size: large;
+}
+.forgot-pass{
+    color: black;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

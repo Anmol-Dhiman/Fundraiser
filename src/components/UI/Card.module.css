@@ -1,0 +1,48 @@
+.card{
+    width: 350px;
+    height: 550px;
+    position: relative;
+    margin: 2rem;
+    padding: 20px 0 20px;
+    border: 1px solid grey;
+    overflow: hidden;
+}
+.cardInfo{
+    position: relative;
+    top: 5%;
+    padding: 1rem;
+    background-color: rgb(216, 216, 216);
+}
+.card-img{
+    margin-left: 1rem;
+    width: 250px;
+    text-align: center;
+}
+.p-font{
+    font-size: medium;
+}
+.p-div{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.live-date{
+    font-size: medium;
+    font-weight:700;
+}
+.donate-amt{
+    font-size: medium;
+}
+.goal-amt{
+    margin: 1em;
+    border-radius:4px ;
+    padding: 4px;
+    border:2px solid #FF6015;
+    background-color: #fff;
+}
+.readmore-btn{
+    margin-left:20px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    border-radius:5px;
+}
